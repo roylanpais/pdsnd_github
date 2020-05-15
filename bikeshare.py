@@ -280,8 +280,7 @@ def raw_data(df, mark_place):
 
         asc_or_desc = choice("\nWould you like it to be sorted ascending or "
                              "descending? \n [a] Ascending\n [d] Descending"
-                             "\n\n>",
-                             ('a', 'd'))
+                             "\n\n>", ('a', 'd'))
 
         if asc_or_desc == 'a':
             asc_or_desc = True
