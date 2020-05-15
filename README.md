@@ -19,6 +19,6 @@ chicago.csv
 
 ### Credits
 Udacity(https://www.udacity.com/)
-https://www.citibikenyc.com/system-data
-https://www.divvybikes.com/system-data
-https://www.capitalbikeshare.com/system-data
+Citi Bike(https://www.citibikenyc.com/system-data)
+Divvy Bikes(https://www.divvybikes.com/system-data)
+Capital Bikeshare(https://www.capitalbikeshare.com/system-data)
