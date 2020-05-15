@@ -1,7 +1,9 @@
-import time
-import pandas as pd
-import numpy as np
 import datetime as dt
+import time
+
+import numpy as np
+import pandas as pd
+
 import click
 
 CITY_DATA = {'chicago': 'chicago.csv',
@@ -223,12 +225,11 @@ def user_stats(df, city):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # Display counts of user types
     user_types = df['User Type'].value_counts().to_string()
     print("Distribution for user types:")
     print(user_types)
 
-    # Display counts of gender
+    # Display counts of gender distribution
     try:
         gender_distribution = df['Gender'].value_counts().to_string()
         print("\nDistribution for each gender:")
