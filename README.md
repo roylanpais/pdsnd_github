@@ -1,15 +1,19 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created on 02/05/2020. The README file was updated on 16/05/2020.
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This Python 3 script is written to explore data related to bike share systems for Chicago, New York City, and Washington. The student had to write the python code to analyse and answer interesting questions.
 
 ### Files used
-Include the files used
+washington.csv
+new_york_city.csv
+chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity(https://www.udacity.com/)
+https://www.citibikenyc.com/system-data
+https://www.divvybikes.com/system-data
+https://www.capitalbikeshare.com/system-data
