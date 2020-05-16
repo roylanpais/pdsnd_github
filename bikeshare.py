@@ -1,7 +1,9 @@
-import time
-import pandas as pd
-import numpy as np
 import datetime as dt
+import time
+
+import numpy as np
+import pandas as pd
+
 import click
 
 CITY_DATA = {'chicago': 'chicago.csv',
@@ -223,12 +225,11 @@ def user_stats(df, city):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # Display counts of user types
     user_types = df['User Type'].value_counts().to_string()
     print("Distribution for user types:")
     print(user_types)
 
-    # Display counts of gender
+    # Display counts of gender distribution
     try:
         gender_distribution = df['Gender'].value_counts().to_string()
         print("\nDistribution for each gender:")
@@ -279,8 +280,7 @@ def raw_data(df, mark_place):
 
         asc_or_desc = choice("\nWould you like it to be sorted ascending or "
                              "descending? \n [a] Ascending\n [d] Descending"
-                             "\n\n>",
-                             ('a', 'd'))
+                             "\n\n>", ('a', 'd'))
 
         if asc_or_desc == 'a':
             asc_or_desc = True
